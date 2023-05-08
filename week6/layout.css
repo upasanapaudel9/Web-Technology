@@ -1,0 +1,90 @@
+h1{
+    text-transform:uppercase;
+    color: aquamarine;
+    background-color: blueviolet;
+    font-size:60px;
+    text-align:center;
+}
+.parent{
+    width:100%;
+}
+img{
+    width:500px;
+    height:auto;
+}
+.son{
+    width:50%;
+    float:left;
+}
+.daughter{
+    width:50%;
+    float:right;
+}
+
+/*mobiles device*/
+@media  (min-width:320px)  and  (max-width:480px){
+    .parent{
+        display:block;
+    }
+h1{
+    color: blueviolet;
+    width:100%;
+    background-color: cyan;
+    text-align: center;
+}
+.daughter{
+    width:100%;
+}
+.son{
+    width:100%;
+}
+.daughter img{
+    width:100%;
+    height:auto;
+}
+}
+
+/*tablet device*/
+@media  (min-width:481px)  and  (max-width:768px){
+    .parent{
+        display:block;
+    }
+h1{
+    color: rgb(226, 43, 131);
+    width:100%;
+    background-color: rgb(246, 255, 0);
+    text-align: center;
+}
+.daughter{
+    width:100%;
+}
+.son{
+    width:100%;
+}
+.daughter img{
+    width:100%;
+    height:auto;
+}
+}
+/*laptop device*/
+@media  (min-width:769px)  and  (max-width:1024px){
+    .parent{
+        display:block;
+    }
+h1{
+    color: rgb(43, 226, 86);
+    width:100%;
+    background-color: rgb(227, 28, 211);
+    text-align: center;
+}
+.daughter{
+    width:100%;
+}
+.son{
+    width:100%;
+}
+.daughter img{
+    width:100%;
+    height:auto;
+}
+}

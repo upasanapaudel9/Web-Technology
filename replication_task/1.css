@@ -1,0 +1,48 @@
+.div1{
+    width: 60%;
+    background-color: rgb(1, 55, 35);
+    float: left;
+    height: 700px;
+    }
+    h1{
+    width: 100%;
+    color: white;
+    margin-left: 5%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    }
+    p{
+    margin-left: 5%;
+    margin-top: 2%;
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    pre{
+    margin-top: 15%;
+    color: white;
+    font-size: 20px;
+    margin-left: 5%;
+    font-style: normal;
+    
+    }
+    button{
+    border-radius: 20px;
+    background-color: rgb(239, 201, 33);
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+    }
+    .div2{
+    width: 40%;
+    float: right;
+    height: 100%;
+    }
+    img{
+    width: 700px;
+    height: 700px;
+    }
